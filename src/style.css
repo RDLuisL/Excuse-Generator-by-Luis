@@ -1,1 +1,5 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+h1 {
+  font-family: "Nothing You Could Do", bold;
+}
