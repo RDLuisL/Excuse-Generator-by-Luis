@@ -1,5 +1,29 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
 
 h1 {
+  margin-left: 30px;
+  padding: 40px;
   font-family: "Nothing You Could Do", bold;
+  color: white;
+}
+
+body {
+  background-color: black;
+  background-image: url(./assets/img/bart_excuses.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+.container {
+  margin-top: 380px;
+  margin-left: 550px;
+  width: 200px;
+  font-size: 16px;
+  font-family: "Nothing You Could Do", bold;
+  /** Rotation */
+  -webkit-transform: rotate(-16deg);
+  -moz-transform: rotate(-16deg);
+  transform: rotate(-16deg);
+  filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=5);
 }
